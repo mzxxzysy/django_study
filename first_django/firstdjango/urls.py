@@ -17,8 +17,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from first import views
-
 urlpatterns = [
     path('first/', include('first.urls')),
     path('second/', include('second.urls')),
